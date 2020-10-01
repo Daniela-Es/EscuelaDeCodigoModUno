@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- atributos -->
+    <!-- rel, relación -->
+    <!-- href, hipervinculo de referencia, nombre de doc con extensión -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- etiqueta de bloque -->
+    <style>
+        /* llaves = bloque de código*/
+        /* css */
+        /* mi selector apunta o selecciona a las etiquetas p */
+        /* selector 1 por nombre de etiqueta */
+        p{
+             background-color: blue;
+             color: darksalmon;
+        }
+        /* selector 2 clase declarar un . (punto), seguido de un nomnbre*/
+        .parrafo1{
+            background-color: green;
+            color: blue;
+        }
+        .parrafo2{
+            background-color: violet;
+            color: brown;
+        }
+        .parrafo3{
+            background-color: green;
+            color: coral;
+        }
+        /* selector 3, por id*/
+        /* declarar el # seguido de un nombre sin espacio*/
+        #parrafo4{
+            background-color: cornflowerblue;
+            color: darkmagenta;
+        }
+    </style>
+    <title>Estilo</title>
+</head>
+
+<body>
+
+    <h1 class="titulo">Estilo</h1>
+
+    <!-- con emmet donde [h1] es el nombre d ela etiqueta [.] referencia a la clase [titulo] nombre de la clase [>] mayor que = dentro del h1 o cerrando el braket de inicio [{}] para escribir texto [Estilo] se muestra en pantalla-->
+    <!-- h1.titulo>{Estilo}  -->
+
+
+
+
+
+
+
+
+    <h1 style="background-color: fuchsia;color: midnightblue ; text-align: center;">Estilo</h1>
+    <!-- estilo en linea CSS V1 -->
+    <h2>Estilo en linea v1</h2>
+    <p style="background-color: navy; color: papayawhip;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Atque ut commodi maiores consectetur, ipsam labore incidunt aliquid. Facilis ipsum dolorum odio, necessitatibus
+        expedita, corrupti illo quos alias eos, deserunt minima?</p>
+    <hr>
+    <h2>Estilo global o embebido v2</h2>
+
+
+    <p>Selector por clase</p>
+    <!-- estilo global embebido -->
+    <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt reprehenderit sequi mollitia quidem voluptates illum inventore ratione quisquam magnam facilis tempore architecto doloribus modi atque blanditiis maxime pariatur minima quasi facere sunt ex nam, eos expedita explicabo. Maxime, blanditiis animi.</p>
+
+    <p class="parrafo2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, harum. Sunt fuga numquam cum officia assumenda quam?</p>
+
+    <p class="parrafo3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <!-- parrafo con estilo global -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde itaque reiciendis eveniet illum sint voluptates ipsa, dolorum nesciunt tenetur sunt, commodi placeat, voluptas quasi accusantium debitis ad alias!</p>
+
+    <p>Selector por id</p>
+    <!-- parrafo con selector id -->
+    <p id="parrafo4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt atque aliquid praesentium nam recusandae et distinctio ducimus?</p>
+
+    <hr>
+
+    <!-- estilo externo CSS version actual (3) -->
+    <h2>Estilo externo v3</h2>
+
+    <p class="jess">parrafo con la clase jessi</p>
+    <em class="danny">etiqueta de texto cursivo con clase danny</em>
+    <br>
+    <del class="iracel">etiqueta de texto tachado con clase iracel</del>
+
+    <h3>Osos</h3>
+    <!-- etiqueta li, listas -->
+    <ul>
+        <li id="oso">Peludos</li>
+        <li id="oso">Grandes</li>
+        <li id="oso">Feroces</li>
+    </ul>
+
+    <h3>Jirafas</h3>
+    <!-- etiqueta ul, viñetas -->
+    <ul>
+        <li id="jirafa">Altas</li>
+        <li id="jirafa">Manchas</li>
+        <li id="jirafa">Hervíboras</li>
+    </ul>
+
+    <h3>Delfines</h3>
+    <ul>
+        <li id="delfin">Inteligentes</li>
+        <li id="delfin">Tiernos</li>
+        <li id="delfin">Grandes</li>
+    </ul>
+</body>
+
+
+
+
+</html>

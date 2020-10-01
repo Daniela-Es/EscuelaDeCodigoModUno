@@ -1,0 +1,53 @@
+body{
+    background-color: lightblue;
+}
+
+.titulo{
+    width: 40%;
+    text-align: center;
+    color: rgb(14, 83, 25);
+    border: 2px dashed yellow;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(95, 138, 187);
+    margin-left: 30%;
+    border-bottom-right-radius: 35px;
+}
+
+/* selector: etiqueta */
+img{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    cursor: grabbing;
+    border-bottom-left-radius: 35px;
+    /* border-top-right-radius: 35px; */
+    opacity: .5;
+    transition: all .9s;
+    border-top-right-radius: 35px;
+}
+
+
+img:hover{
+    opacity: 1;
+    width: 410px;
+    height: 410px;
+    transition: all .9s;
+    border-radius: 50%;
+}
+
+
+/* selector: clase . */
+
+.calavera{
+    width: 200px;
+    height: 300px;
+}
+
+/* selector: id # */
+
+#luces{
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+

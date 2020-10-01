@@ -1,0 +1,53 @@
+body{
+    background-color: wheat;
+}
+
+.contenedor{
+    border: 2px solid brown;
+    height: 15vw; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.caja{
+    border: 2px solid brown;
+    height: 10vw;
+    width: 40vw;
+    justify-content: space-around;
+    display: flex;
+}
+
+.cajainterior{
+    border: 2px solid brown;
+    height: 5vw;
+    width: 20vw;
+}
+
+.buscar{
+    border: 2px solid brown;
+    height: 5vw;
+    width: 10vw;
+}
+
+.imagenes{
+    border: 2px solid brown;
+    height: 40vw;
+    width: 40 vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgprincipal{
+    border: 2px solid brown;
+    height: 35vw;
+    width: 40vw;
+    /* align-items: baseline; */
+}
+
+.imgcuadrado{
+    border: 2px solid brown;
+    height: 15vw;
+    width: 20vw;
+    display: flex;
+}

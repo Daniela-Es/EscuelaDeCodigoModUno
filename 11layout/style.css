@@ -1,0 +1,48 @@
+body{
+    background-color: cadetblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    border: 2px double rgb(3, 73, 143);
+    height: 15vh;
+}
+
+nav{
+    border: 2px dotted blue;
+    margin-top: 7px;
+}
+
+.principal{
+    border: 2px solid purple;
+    /* con una altura automática para que no se salgan las otras cajas */
+    /* height: 70vh; */
+    margin-top: 7px;
+    display: flex;
+}
+
+section{
+    border: 2px double blanchedalmond;
+    height: 35vh;
+}
+article{
+    border: 2px double rgb(214, 157, 70);
+    height: 35vh;
+}
+aside{
+    border: 2px solid green;
+    width: 40%;
+    height: 70vh;
+}
+.hermano{
+    width: 60%;
+    border: 2px solid black
+}
+
+footer{
+    border: 2px solid gold;
+    background-color: honeydew;
+    height: 10vh;
+    margin-top: 7px;
+}

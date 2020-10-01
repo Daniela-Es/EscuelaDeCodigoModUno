@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario para guardería</title>
+</head>
+<body>
+    <h1 class="titulo">Inscripción a la Guardería "Sonrisitas"</h1>
+
+    <form action="">
+        <label for="nombre">Nombre del niño:</label>
+        <br>
+        <label for="paterno">Apellido paterno:</label>
+        <input type="text" placeholder="Ingresa el apellido paterno" required>
+        <br>
+        <label for="materno">Apellido materno:</label>
+        <input type="text" placeholder="Ingresa el apellido materno" required>
+        <br>
+        <label for="nombre">Nombre(s):</label>
+        <input type="text" placeholder="Ingresa el nombre o nombres" required>
+
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" placeholder="Entre 3 y 7 años" required min="3" max="7">
+
+        <br>
+        <label for="direccion">Dirección:</label>
+        <br>
+        <label for="calle">Calle:</label>
+        <input type="text" placeholder="Calle">
+        <br>
+        <label for="int">Número interior:</label>
+        <input type="number" placeholder="Número interior">
+        <label for="ext">Número exterior:</label>
+        <input type="number" placeholder="Número exterior">
+        
+        <br>
+        <label for="telefono">Teléfono</label>
+        <input type="tel" placeholder="Teléfono del responsable" minlength="8" maxlength="10" required>
+
+        <br>
+        <label for="alergias">Alergias</label>
+        <input type="text" placeholder="Escribe las alergias del niño, separadas por una coma">
+
+        <br>
+        <button>Inscribir</button>
+
+    </form>
+</body>
+</html>

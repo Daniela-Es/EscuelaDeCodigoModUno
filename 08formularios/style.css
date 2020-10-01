@@ -1,0 +1,69 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.titulo{
+    width: 40%;
+    background-color: rgb(55, 89, 200);
+    color: wheat;
+    margin-left: 30%;
+    text-align: center;
+}
+
+form{
+    background-color: rgb(241, 183, 75);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 30, 0);
+    padding: 15px;
+}
+
+
+/* especificidad */
+/* input: por nombre de etiqueta, pero afectará a todas ellas */
+/* .caja: por clase, elegimos a cuál o cuáles de ellas afectará al incluir la clase */
+.caja{
+    width: 55%;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 8px;
+    transition: all .6s;
+}
+
+.caja:hover{
+    background: gold;
+    border: 2px solid tomato;
+    transition: all .6s;
+}
+
+/* especificidad */
+/* pseudoselector: focus */
+/* enfoca cuando damos clic */
+input[type="text"]:focus,input[type="number"]:focus{
+    background-color: violet;
+    color: teal;
+    border: 2px solid blue;
+    transition: all .6s;
+}
+
+/* investigar etiquetas para las que funciona focus */
+input[type="email"]:focus,input[type="password"]:focus{
+    background-color: yellowgreen;
+    color: turquoise;
+    border: 2px solid chartreuse;
+    transition: all .6s;
+}
+
+button{
+    background-color: indianred;
+    border-radius: 20px;
+    height: 30px;
+}
+
+button:hover{
+    width: 90px;
+    height: 35px;
+    background-color: rgb(246, 7, 7);
+    font-size: 20px;
+}

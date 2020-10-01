@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedido</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="img/cupcake1.png" alt="cupcake" width="150vw" height="150vh">
+        </div>
+        <div>
+            <h1>El Cupcake Feliz</h1>
+        </div>
+    </header>
+    <br>
+    <form action="">
+        <fieldset>
+            <legend>Elige la cantidad</legend>
+            <input type="radio" id="Individual" name="qty" required>
+            <label for="Individual">Individual</label>
+            <br>
+            <input type="radio" id="seis" name="qty" required>
+            <label for="seis">Charola de seis</label>
+            <br>
+            <input type="radio" id="doce" name="qty" required>
+            <label for="doce">Charola de doce</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Elige el sabor de tu(s) cupacke(s)</legend>
+
+            <input type="radio" id="surtido" name=sabor required>
+            <label for="surtido">Sabores surtidos</label>
+            <br>
+            <input type="radio" id="chocolate" name=sabor required>
+            <label for="chocolate">Chocolate</label>
+            <br>
+            <input type="radio" id="vainilla" name=sabor required>
+            <label for="vainilla">Vainilla</label>
+            <br>
+            <input type="radio" id="fresa" name=sabor required>
+            <label for="fresa">Fresa</label>
+            <br>
+            <input type="radio" id="red velvet" name=sabor required>
+            <label for="red velvet">Red Velvet</label>
+            <br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Dirección de entrega</legend>
+            <label for="calle">Calle</label>
+            <input type="text" required>
+            <br>
+            <br>
+            <label for="exterior">Número exterior</label>
+            <input type="number" required>
+            <label for="interior">Número interior</label>
+            <input type="number" required>
+            <br><br>
+            <label for="colonia">Colonia</label>
+            <input type="text" required>
+            <br><br>
+            <label for="alcaldia">Alcaldía</label>
+            <input type="text" required>
+            <br><br>
+            <label for="tel">Número de contacto</label>
+            <input type="tel"  required>
+            <br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Fecha y hora de entrega</legend>
+            <input type="date" required>
+             <input type="time" min="10:00 am" max="08:00 pm" required> 
+            <br><br>
+            <button>Proceder al pago</button>
+        </fieldset>
+    </form>
+    <br>
+    <a href="index.html">Regresar</a>
+</body>
+
+</html>

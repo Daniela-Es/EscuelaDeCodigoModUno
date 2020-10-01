@@ -1,0 +1,57 @@
+/* RGB */
+/* Red Green Blue */
+/* va del 0 al 254  es el porcentaje de color en rojo, verde y azul*/
+
+/* css hoja de estilo en cascada, toma la última instrucción para mostrarla */
+body{
+    /* 119r 136g 153b */
+    background-color: rgb(119, 136, 153);
+    /* RGBA */
+    /* a=difuminado, transparencia */
+    background-color: rgba(254, 2, 2, .5);
+
+    /* hexadecimal */
+    /* gama de tonos más amplia en comparación con rgb */
+    background-color: #6fa12ca1;
+
+    /* HSl */
+    /* hue=saturación*/
+    /* intensidad */
+    /* luminosidad */
+    background-color: hsl(246, 27%, 37%);
+
+    /* HSLA */
+    /* se recomienda más para transparencias */
+    background-color: hsla(240, 100%, 50%, .8);
+
+    /* CMYK */
+
+    /* paleta de colores */
+    background-color:  #D6C2F2;
+
+    background: #ee9ca7;  /* fallback for old browsers */
+
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Pacifico', cursive;
+
+}
+/* ****************** */
+/* PALETA DE COLORES */
+/* ****************** */
+/* Color Theme Swatches in Hex */
+.color-1 { color: #8C2048; }
+.color-2 { color: #D92378; }
+.color-3 { color: #401731; }
+.color-4 { color: #D6C2F2; }
+.color-5 { color: #322059; }
+
+
+p{
+    color: #322059;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 100%;
+}

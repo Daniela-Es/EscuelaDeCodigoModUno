@@ -1,0 +1,33 @@
+body{
+    background-color: chocolate;
+}
+
+.titulo{
+    color: rebeccapurple;
+    width: 20%;
+    background-color: red;
+    text-align: center;
+    margin-left: 40%;
+    border-bottom-right-radius: 20px;
+}
+
+table{
+    background-color: saddlebrown;
+    width: 60%;
+    border-radius: 2px;
+    margin-left: 20%;
+}
+
+th{
+    color: sandybrown;
+    font-size: 25px;
+}
+
+td{
+    text-align: center;
+}
+
+th,td{
+    border: 5px solid royalblue;
+    padding: 20px;
+}

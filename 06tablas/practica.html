@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practica tablas</title>
+</head>
+
+<body>
+
+    <!-- tabla con cuatro encabezados, con cinco registros -->
+    <!-- copiar y pegar: shift+alt+flecha (abajo o arriba) -->
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Teléfono</th>
+            <th>Alcaldía</th>
+            <th>Color favorito</th>
+        </tr>
+        <tr>
+            <td>Pepe</td>
+            <td>54321678</td>
+            <td>GAM</td>
+            <td>Rojo</td>
+        </tr>
+        <tr>
+            <td>Oscar</td>
+            <td>49029384</td>
+            <td>Alvaro Obregon</td>
+            <td>Azul</td>
+        </tr>
+        <tr>
+            <td>Luisa</td>
+            <td>50392839</td>
+            <td>Cuajimalpa</td>
+            <td>Verde</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>83029384</td>
+            <td>Azcapotzalco</td>
+            <td>Morado</td>
+        </tr>
+        <tr>
+            <td>Rosa</td>
+            <td>83920391</td>
+            <td>Iztapalapa</td>
+            <td>Rosa</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>e1</th>
+            <th>e2</th>
+            <th>e3</th>
+            <th>e4</th>
+        </tr>
+        <tr>
+            <td>e1</td>
+            <td>e2</td>
+            <td>e3</td>
+            <td>e4</td>
+        </tr>
+        <tr>
+            <td>e1</td>
+            <td>e2</td>
+            <td>e3</td>
+            <td>e4</td>
+        </tr>
+        <tr>
+            <td>e1</td>
+            <td>e2</td>
+            <td>e3</td>
+            <td>e4</td>
+        </tr>
+    </table>
+    <br>
+
+    <!-- emmet -->
+    <!-- table>tr*6 -->
+    <!-- table>(tr>th*4)*6 -->
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <!-- atributo colspan [#], ocupa dos columnas -->
+            <th colspan=" 2"></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+
+    <br>
+    <!-- table>(tr>th>{campo $}*4)*6 -->
+    <!-- ctrl+d coincidencia -->
+    <table>
+        <tr>
+            <th>campo 1</th>
+            <th>campo 2</th>
+            <th>campo 3</th>
+            <th>campo 4</th>
+        </tr>
+        <tr>
+            <td>campo 1</td>
+            <td>campo 2</td>
+            <td>campo 3</td>
+            <td>campo 4</td>
+            
+        </tr>
+        <tr>
+            <td>campo 1</td>
+            <td>campo 2</td>
+            <td>campo 3</td>
+            <td>campo 4</td>
+        </tr>
+        <tr>
+            <td>campo 1</td>
+            <td>campo 2</td>
+            <td>campo 3</td>
+            <td>campo 4</td>
+        </tr>
+        <tr>
+            <td>campo 1</td>
+            <td>campo 2</td>
+            <td>campo 3</td>
+            <td>campo 4</td>
+        </tr>
+        <tr>
+            <td>campo 1</td>
+            <td>campo 2</td>
+            <td>campo 3</td>
+            <td>campo 4</td>
+        </tr>
+    </table>
+<br>
+<h2>Ejercicio: horario</h2>
+<!-- ejercicio: horario -->
+<table>
+    <tr>
+        <th colspan="6">Horario</th>
+    </tr>
+    <tr>
+        <td rowspan="6">Horas</td>
+        <td>Lunes</td>
+        <td>Martes</td>
+        <td>Miércoles</td>
+        <td>Jueves</td>
+        <td>Viernes</td>
+    </tr>
+    <tr>
+        <td>Ciencias</td>
+        <td>Mate</td>
+        <td>Ciencias</td>
+        <td>Mate</td>
+        <td>Artes</td>
+    </tr>
+    <tr>
+        <td>Sociales</td>
+        <td>Historia</td>
+        <td>Inglés</td>
+        <td>Sociales</td>
+        <td>Deportes</td>
+    </tr>
+    <tr>
+        <td colspan="6">Comida</td>
+    </tr>
+    <tr>
+        <td>Ciencias</td>
+        <td>Mate</td>
+        <td>Ciencias</td>
+        <td>Mate</td>
+        <td rowspan="2">Proyecto</td>
+    </tr>
+    <tr>
+        <td>Sociales</td>
+        <td>Historia</td>
+        <td>Inglés</td>
+        <td>Sociales</td>
+    </tr>
+</table>
+
+</body>
+
+
+
+
+</html>

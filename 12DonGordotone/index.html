@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Don Gordotone</title>
+</head>
+
+<body>
+    <!-- encabezado -->
+    <header id="inicio">
+        <div class="principal">
+            <!-- logo -->
+            <div class="logo">
+                <img src="img/donGordotone.png" alt="logo Don Gordotone">
+                <h1>Don Gordotone</h1>
+            </div>
+            <!-- navegación -->
+            <nav>
+                <ul>
+                    <li>Inicio</li>
+                    <li>
+                        <a href="#menu">Menú</a>
+                    </li>
+                    <li>
+                        <a href="#carta">Carta</a>
+                    </li>
+                    <li>
+                        <a href="#ubicacion">Ubicación</a>
+                    </li>
+                    <li>
+                        <a href="#nosotros">Nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="slogan">
+            <h2>Don Gordotone: de que come, come</h2>
+        </div>
+    </header>
+
+    <!-- platillos del mes -->
+    <!-- utilizando emmet: -->
+
+    <h2 class="separador">Especiales del mes </h2>
+    <hr>
+    <!-- section>(div.caja>p>{caja $})*3 -->
+    <section id="menu">
+        <div class="caja">
+            <div class="container-img">
+                <img src="https://cdn.pixabay.com/photo/2019/07/21/01/32/chile-en-nogada-4351797_960_720.jpg"
+                    alt="chiles en nogada">
+            </div>
+            <div class="container-texto">
+                <h3>Chiles en nogada</h3>
+                <p class="descripcion">Ven y disfruta en compañia de tu familia los deliciosos chiles en nogada rellenos
+                    de carne molida,
+                    especies y frutos bañados en salsa de nogada con pasas y granada</p>
+                <p class="precio">$120</p>
+            </div>
+        </div>
+        <div class="caja">
+            <div class="container-img">
+                <img src="https://cdn.pixabay.com/photo/2017/10/05/18/08/pozole-2820341_960_720.jpg" alt="pozole">
+            </div>
+            <div class="container-texto">
+                <h3>Pozole rojo</h3>
+                <p class="descripcion">Delicioso pozole rojo con carne de puerco fresca y maíz recién cortado.
+                    Acompánalo con tostadas y
+                    rábanos.</p>
+                <p class="precio">$70</p>
+            </div>
+        </div>
+        <div class="caja">
+            <div class="container-img">
+                <img src="https://image.freepik.com/foto-gratis/desayuno-moda-quesadilla-huevos-comida-moda-tortilla-queso_73872-2649.jpg"
+                    alt="quesadilla">
+            </div>
+            <div class="container-texto">
+                <h3>Quesadillas</h3>
+                <p class="descripcion">Deliciosas quesadillas con triple queso, masa de la mejor calidad y acompaña con
+                    la salsa más picante</p>
+                <p class="precio">$80</p>
+            </div>
+        </div>
+    </section>
+    <h2 class="separador">A la Carta </h2>
+    <hr>
+    <section id="carta">
+        <div class="carta">
+            <h3>Menú carnívoro</h3>
+            <div class="contenido">
+                <div class="lista">
+                    <ul>
+                        <li>Alambre $80</li>
+                        <li>Tacos de guisado $12</li>
+                        <li>Sopas $55</li>
+                        <li>Cremas $40</li>
+                        <li>Carnitas $60</li>
+                        <li>Spagetti $35</li>
+                        <li>Arrroz $35</li>
+                        <li>Tortas $35</li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <img src="https://image.freepik.com/foto-gratis/espaguetis-bolongeses_74190-5240.jpg"
+                        alt="spaghetti">
+                </div>
+            </div>
+            <h2 class="complemento">Todos los platillos van acompañados de sopa, arroz, agua y postre</h2>
+        </div>
+        <div class="carta">
+            <h3>Menú vegetariano</h3>
+            <div class="contenido">
+                <div class="lista">
+                    <ul>
+                        <li>Carnitas de soya $60</li>
+                        <li>Crema de tofu $30</li>
+                        <li>Haburguesas de lenteja $40</li>
+                        <li>Ensaladas $35</li>
+                        <li>Tostadas de ceviche de zanahoria $15</li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <img src="https://image.freepik.com/foto-gratis/ensalada-saludable-jugo-contra-fondo-blanco_23-2148193166.jpg"
+                        alt="ensalada">
+                </div>
+            </div>
+            <h2 class="complemento">Todos los platillos van acompañados de sopa, arroz, agua y postre</h2>
+        </div>
+    </section>
+    <h2 class="separador">Nuestro local </h2>
+    <hr>
+
+    <section id="ubicacion">
+        <div class="direccion caja-dir sombra-1">
+            <div class="caja-dir-texto">
+                <h3>Sucursal Casa de los Azulejos</h3>
+                <p>Av Francisco I. Madero 4, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06500 Ciudad de
+                    México, CDMX</p>
+                <p>+525555121331</p>
+                <p>7:00 AM-8:00 PM</p>
+            </div>
+            <div class="caja-dir-img">
+                <img src="https://cdn.pixabay.com/photo/2016/11/21/16/02/bar-1846137_960_720.jpg" alt="sucursal">
+            </div>
+        </div>
+        <div class="direccion flex">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.486242857818!2d-99.14012011424775!3d19.434591673927805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92b5f1a452f%3A0x8b1879ee6f42c37!2sCasa%20de%20los%20Azulejos!5e0!3m2!1ses-419!2smx!4v1600445775192!5m2!1ses-419!2smx"
+                width="500" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0" class="mapa"></iframe>
+        </div>
+    </section>
+    <footer id="nosotros">
+        <!-- (div.caja-pie>p{caja $})*3 -->
+        <div class="caja-pie">
+            <div class="logo">
+                <h2>Don Gordotone</h2>
+                <img src="img/donGordotone.png" alt="logo Don Gordotone">
+            </div>
+        </div>
+        <div class="caja-pie">
+            <p>Comedor, cooperativa, organización</p>
+            <a href="#inicio">Inicio</a>
+        </div>
+        <div class="caja-pie">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="https://image.flaticon.com/icons/png/512/124/124032.png" alt="logo-instagram" class="icono">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://image.flaticon.com/icons/png/512/124/124010.png" alt="logo-facebook"class=icono>
+            </a>
+            <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://image.flaticon.com/icons/png/512/124/124021.png" alt="logo-twitter" class="icono">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

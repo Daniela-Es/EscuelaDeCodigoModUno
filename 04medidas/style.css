@@ -1,0 +1,119 @@
+body{
+    background-color: lightcoral;
+}
+
+.titulo{
+    text-align: center;
+    background-color: red;
+    width: 40%;
+    border: 12px double black;
+    margin-left: 30%;
+    border-radius: 30px;
+    
+
+}
+
+/* Medidas absolutas */
+/* unidades [numero] seguido de la unidad de medida sin espacio [cm] */
+
+.centimetro{
+    font-size: 1cm;
+    color: rgb(24, 70, 71);
+}
+
+.picas{
+    font-size: 1pc;
+    color: rgb(158, 116, 11);
+}
+
+.puntos{
+    font-size: 10pt;
+    color: rgb(36, 192, 88);
+
+}
+
+/* recomendado */
+.pixeles{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 50%;
+
+}
+
+
+/* Medidas relativas */
+
+.porcentaje{
+    width: 60%;
+    background-color: brown;
+    text-align: center;
+}
+
+/* ejemplo para entender visualmente cuándo ocupar px o porcentaje */
+.pixeles-parrafo{
+    width: 820px;
+    background-color: tomato;
+    text-align: center;
+}
+
+/* no está definida la "altura" de una página web */
+
+/* viewport: captura de un momento en el cual sí podemos conocer las dimensiones */
+/* vw[width] y vh [height] */
+
+.cuadro{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(255, 0, 149);
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 300%;
+    padding-top: 20%;
+    /* propiedad sombra de texto */
+    /* eje x, eje y, blur, color */
+    text-shadow: 5px 5px 5px red ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 11px inset lightskyblue;
+    
+}
+
+.cuadrado{
+    width: 20vw;
+    height: 20vw;
+    background-color: teal;
+    border: 3px dashed rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    color: darkblue;
+    text-shadow: 10px 10px 10px burlywood;
+    font-family: monospace;
+
+}
+
+#circulo{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(88, 15, 148);
+    border-radius: 300px;
+    text-align: center;
+    font-size: 40px;
+    color: firebrick;
+    text-shadow:15px 6px 3px hotpink;
+    font-family: cursive;
+
+
+}
+
+.rectangulo{
+    width: 30vw;
+    height: 40vw;
+    background-color: crimson;
+    border: 6px ridge blue;
+    color: rgb(12, 33, 104);
+    font-size: 200%;
+    padding-top: 20%;
+    text-shadow: 7px 12px 3px coral;
+    font-family: fantasy;
+}
+

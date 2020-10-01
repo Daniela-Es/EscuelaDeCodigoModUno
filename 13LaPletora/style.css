@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(31, 30, 30);
+}
+header{
+    /* border: 2px solid white; */
+    width: 95vw;
+    height:55vh;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_960_720.jpg');
+    background-size: cover;
+    background-position: initial;
+}
+.principal{
+    /* border: 2px solid white ;  */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 20%;
+    height: 100%;
+}
+h1{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: white;
+}
+.principal p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navegacion{
+    margin-left: 75%;
+    margin-top: 5%;
+ }
+a{
+    font-size: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 25px;
+    font-family: fantasy;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+.navegacion li{
+    font-size: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+    margin: 10px;
+}
+h2{
+    width: 30%;
+    color: gold;
+    /* background-color: gray; */
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 15px;
+    border: 3px outset gold;
+    
+}
+section{
+    /* border: 2px solid red;  */
+    width: 87vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+form{
+    width: 100%;
+}
+article{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    text-align: justify;
+}
+aside{
+    /* border: 2px solid green;  */
+    width: 40%;
+}
+aside img{
+    width: 400px;
+    margin-top: 12%;
+    margin-left: 9%;
+}
+.discografia article{
+    width: 50%;
+}
+.contraportada{
+    display: flex;
+}
+.contraportada aside{
+    /* border: 2px solid blue; */
+    width: 90%;
+}
+.contraportada img{
+    width: 50%;
+}
+.contraportada ol{
+    margin-top: 35%;
+    margin-left: 10%;
+}
+.contraportada li{
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: left;
+}
+.entradas li{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.entradas label{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+fieldset{
+    width: 100%;
+    border: 2px solid yellow;
+
+}
+legend{
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+}
+footer{
+    background-color: rgb(87, 84, 84);
+}

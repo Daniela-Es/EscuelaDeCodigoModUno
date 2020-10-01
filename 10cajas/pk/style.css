@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(236, 140, 51);
+}
+
+.titulo{
+    width: 40%;
+    background-color: rgb(248, 227, 34);
+    color: rgb(39, 30, 4);
+    margin-left: 30%;
+    text-align: center;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border: 2px ridge tomato;
+}
+
+.caja{
+    border: 2px solid tan;
+    width: 30vw;
+    justify-content: flex-start;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
+    display: flex;
+    border: 2px solid teal;
+/* eje x */
+justify-content: center;
+/* eje y */
+align-items: center;
+}
+
+img{
+    width: 30vw;
+}
+.primeracaja{
+    display: flex;
+    border: 2px solid teal;
+    justify-content: space-around;
+}
+.cajados{
+    border: 2px solid tan;
+    width: 30vw;
+}
+
+
+.descripcion{
+    border: 2px solid tan;
+    justify-content: flex-end;
+}
+
+video{
+    width: 30vw;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(199, 37, 9);
+}
+
+table{
+    background-color: rgb(194, 93, 10);
+    border-radius: 20px;
+}
+
+th{
+    border: 2px solid black;
+}
+
+td{
+    border: 2px solid white
+}
+
+li{
+    font-family: fantasy;
+    color: rgb(88, 88, 9);
+}

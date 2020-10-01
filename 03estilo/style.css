@@ -1,0 +1,72 @@
+/* selector, bloque llaves y dentro propiedad valor */  
+/* tres tipos de selectores */
+/* 1)por nombre de etiqueta */
+/* 2)por clase */
+/* 3)por id  */
+
+/* por nombre de etiqueta si es unica en el documento */
+
+body{
+    background-color: rgb(255, 81, 0);
+}
+
+.titulo{
+    /* las etiquetas ocupan el 100% de la pantalla*/
+    background-color: aqua;
+    width: 30%;
+    text-align: center;
+    /* margen, propiedad margin */
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 35%;
+    /* propiedad border [tamaño, aspecto,color] */
+    /* border left, right,etc */
+    border-right: 12px double rgb(0, 0, 0);
+    /* border radius */
+    border-radius: 20px;
+    /* propiedad paddign, relleno del margen 
+    interno */
+    padding-bottom: 20px;
+}
+/* por clase */
+
+.iracel{
+    color:white;
+    background-color: violet;
+}
+
+.jessi{
+    color: black;
+    background-color: lightblue;;
+}
+
+.danny{
+    color:red;
+    background-color: salmon;
+}
+
+/* por id */
+
+#oso{
+    color:violet;
+    background-color: wheat;
+    font-size: 22px;
+    
+}
+
+#jirafa{
+    color:lightblue;
+    background-color: black;
+    font-size: 38px;
+    text-align: center ;
+
+    
+}
+
+#delfin{
+    color:salmon;
+    background-color: red;
+    font-size: 30px;
+    text-align: right;
+}
+
